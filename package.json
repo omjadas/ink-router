@@ -22,14 +22,13 @@
   },
   "dependencies": {
     "history": "^4.10.1",
-    "ink": "^2.4.0",
     "path-to-regexp": "^3.1.0",
     "prop-types": "^15.7.2",
-    "react": "^16.10.1",
     "yargs-parser": "^14.0.0"
   },
   "peerDependencies": {
-    "ink": "^2.4.0"
+    "ink": ">=2.4.0 <4",
+    "react": ">=16.10.1 <18"
   },
   "devDependencies": {
     "@babel/cli": "^7.6.2",
@@ -42,9 +41,11 @@
     "@babel/preset-react": "^7.0.0",
     "@babel/register": "^7.6.2",
     "babel-jest": "^24.9.0",
+    "ink": ">=2.4.0 <4",
     "ink-testing-library": "^1.0.2",
     "jest": "^24.9.0",
-    "jest-junit": "^8.0.0"
+    "jest-junit": "^8.0.0",
+    "react": ">=16.10.1 <18"
   },
   "engines": {
     "node": ">=6"
